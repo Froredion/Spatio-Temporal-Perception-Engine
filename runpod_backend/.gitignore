@@ -1,0 +1,6 @@
+__pycache__
+**/__pycache__
+.env
+
+# SAM-3 repo is cloned at runtime by start.sh
+models/sam3/sam3_repo/

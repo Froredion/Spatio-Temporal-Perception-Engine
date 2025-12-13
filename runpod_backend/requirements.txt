@@ -1,0 +1,44 @@
+# STPE - Spatio-Temporal Perception Engine
+# RunPod Backend Requirements
+
+# Core ML - DINOv3 requires transformers>=4.56.0, Qwen3-VL works with bfloat16
+--extra-index-url https://download.pytorch.org/whl/cu121
+torch>=2.6.0
+torchvision>=0.21.0
+torchaudio>=2.6.0
+transformers>=4.56.0
+accelerate>=1.3.0
+
+# Vision
+Pillow>=11.1.0
+opencv-python>=4.8.0
+decord>=0.6.0  # Fast video decoding
+
+# Array operations
+numpy>=1.26.0  # Python 3.12 requires numpy 1.26+
+scipy>=1.15.0
+
+# Note: SAM-3 runs in separate conda env (sam3) - see start.sh
+
+# Audio/misc utilities
+soundfile>=0.13.1
+backoff>=2.2.1
+
+# ML utilities
+scikit-learn>=1.3.0
+
+# API and serialization
+requests==2.31.0
+fastapi>=0.104.0
+uvicorn>=0.24.0
+pydantic>=2.5.0
+hf_transfer>=0.1.4
+python-dotenv>=1.0.0
+
+# Cloud storage (Cloudflare R2)
+boto3>=1.34.0
+
+# Development
+pytest>=7.4.0
+black>=23.0.0
+isort>=5.12.0
