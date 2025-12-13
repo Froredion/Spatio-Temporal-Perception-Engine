@@ -1,4 +1,4 @@
-# Spatio-Temporal Perception Engine (STPE)
+# Spatio-Temporal Perception Engine (STPE 1)
 
 **For Generating Self-Supervised Training Datasets for Spatio-Temporal Foundation Models**
 
@@ -297,6 +297,29 @@ For scenarios requiring 100% accurate states outside standard game physics:
 Even Roblox has gaps:
 - **Deformable & Material-Aware Dynamics**: Roblox excels at rigid bodies, but reality includes deformation states (bend, stretch, compress)
 - However, even these can be simulated with proper setup
+
+---
+
+## Project Status: Version 1
+
+**This project is not complete.** It represents Version 1 of a much larger vision.
+
+Spatio-temporal perception remains one of the most unexplored frontiers in AI. While foundation models have transformed text, images, and even video understanding, true spatio-temporal reasoning - understanding how objects persist, move, and interact through space and time - is still in its infancy.
+
+**Nearly every component of this pipeline can be improved:**
+
+- Detection & segmentation models
+- Temporal tracking and object persistence
+- Feature extraction for motion and causality
+- 3D understanding and depth estimation
+- World model integration (V-JEPA 2, etc.)
+- Processing speed and multi-GPU scaling
+- Reasoning & vision-language captioning with temporal context
+- Adding and stacking more models, better captioning, and so much more...
+
+This is a starting point. The real breakthroughs will come from those who build upon this foundation.
+
+**If you're interested in advancing spatio-temporal AI, this is wide-open territory.**
 
 ---
 
