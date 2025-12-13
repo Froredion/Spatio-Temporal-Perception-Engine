@@ -314,8 +314,8 @@ Spatio-temporal perception remains one of the most unexplored frontiers in AI. W
 - 3D understanding and depth estimation
 - World model integration (V-JEPA 2, etc.)
 - Processing speed and multi-GPU scaling
-- Reasoning & vision-language captioning with temporal context
-- Adding and stacking more models, better captioning, and so much more...
+- Reasoning & vision-language understanding with temporal context
+- Model stacking, architectural innovations, and so much more...
 
 This is a starting point. The real breakthroughs will come from those who build upon this foundation.
 
