@@ -89,14 +89,14 @@ Video Input
 
 ---
 
-## Roblox Training Datasets
+## Sample Roblox Training Data
 
-Training datasets from Roblox are matched precisely based on:
+Training data from Roblox are matched precisely based on:
 - **FPS synchronization** between video and game state logs
 - **Timestamp alignment** with sub-50ms accuracy
 - **Frame-by-frame correspondence** using Python + Roblox Luau scripts
 
-### Sample Datasets (Raw Frames + Game State Metadata)
+### Sample Data (Raw Frames + Game State Metadata)
 
 - [jump_stationary_extracted_frames.zip](https://pub-c3287398ac4c45169f66c4600540de91.r2.dev/roblox_datasets/jump_stationary_extracted_frames.zip)
 - [walk_and_stop_extracted_frames.zip](https://pub-c3287398ac4c45169f66c4600540de91.r2.dev/roblox_datasets/walk_and_stop_extracted_frames.zip)
